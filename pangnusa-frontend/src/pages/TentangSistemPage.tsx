@@ -170,6 +170,26 @@ export default function TentangSistemPage() {
             </p>
           </div>
         </div>
+        <div className="mt-4 rounded-xl border border-[#D5EAE8] bg-[#F3FAF9] p-4 sm:p-5">
+          <div className="flex items-start gap-2.5">
+            <Info size={18} className="mt-0.5 shrink-0 text-[#087F8C]" aria-hidden="true" />
+            <div>
+              <h3 className="text-[12px] font-bold text-[#17505E]">Mekanisme Penyajian Hasil Prediksi</h3>
+              <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
+                PANGNUSA menggunakan pendekatan <strong>Static (Batch) Inference</strong>. Model FT-Transformer tidak dijalankan secara langsung ketika pengguna mengakses website. Sebaliknya, website menampilkan hasil prediksi yang telah diproses melalui Google Colab dan diekspor ke dalam file <code className="font-semibold">ncpr.json</code>.
+              </p>
+              <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
+                Pendekatan ini dipilih karena penelitian berfokus pada prediksi NCPR untuk <strong>FSVA 2027</strong>, bukan peramalan berkelanjutan untuk bertahun-tahun ke depan. Proses pemodelan dan hasil prediksi sudah tersedia di Google Colab, sehingga tidak diperlukan inferensi ulang pada setiap kunjungan pengguna.
+              </p>
+              <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
+                Pendekatan ini juga selaras dengan siklus pemutakhiran FSVA yang bersifat <strong>tahunan</strong>. Jika penelitian diperbarui, hasil prediksi dapat diekspor kembali dan file JSON pada website diganti tanpa menjalankan model melalui server.
+              </p>
+              <p className="mt-2 text-[11px] leading-5 text-[#6D8791]">
+                Referensi: <a href="https://badanpangan.go.id/katalog-data" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#087F8C] underline underline-offset-2 hover:text-[#075E69]">Katalog Data Prioritas Badan Pangan Nasional</a> (jadwal pemutakhiran FSVA: tahunan).
+              </p>
+            </div>
+          </div>
+        </div>
       </SurfaceCard>
 
       {/* 03 Kinerja model */}
