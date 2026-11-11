@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", Arial, sans-serif;
+}
+
+:root {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  line-height: 1.5;
+  color: #1e293b;
+  background: #f6f8fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(8, 127, 140, .45);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #d0efeb;
+  color: #142b3b;
+}
+
+/* Hindari overflow horizontal dan hormati preferensi aksesibilitas pengguna. */
+html { scroll-behavior: smooth; }
+body { overflow-x: hidden; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
