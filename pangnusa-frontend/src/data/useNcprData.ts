@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 /**
- * Data PANGNUSA hanya berasal dari public/ncpr.json hasil ekspor Google Colab.
+ * Data PANGNUSA hanya berasal dari public/ncpr_2027.json hasil ekspor Google Colab.
  * Tidak menjalankan model di browser dan tidak menampilkan snapshot lama.
  */
 export type PerubahanStatus =
@@ -174,9 +174,9 @@ let proses: Promise<NCPRData> | null = null
 function ambilData(): Promise<NCPRData> {
   if (cache) return Promise.resolve(cache)
   if (!proses) {
-    proses = fetch('/ncpr.json', { cache: 'no-store' })
+    proses = fetch('/ncpr_2027.json', { cache: 'no-store' })
       .then(async (response) => {
-        if (!response.ok) throw new Error('File ncpr.json tidak tersedia.')
+        if (!response.ok) throw new Error('File ncpr_2027.json tidak tersedia.')
         return validasiEkspor(await response.json())
       })
       .then((valid) => { cache = valid; return valid })
@@ -197,7 +197,7 @@ export function useNcprData() {
       .then((hasil) => { if (aktif) { setData(hasil); setLoading(false) } })
       .catch((err: unknown) => {
         if (aktif) {
-          setError(err instanceof Error ? err.message : 'Gagal membaca ncpr.json.')
+          setError(err instanceof Error ? err.message : 'Gagal membaca ncpr_2027.json.')
           setLoading(false)
         }
       })

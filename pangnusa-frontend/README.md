@@ -4,7 +4,7 @@ PANGNUSA adalah website sistem peringatan dini ketersediaan pangan di Indonesia 
 
 Fitur Utama
 - Dashboard: Ringkasan kondisi dan peringatan dini perubahan status defisit pangan.
-- Jelajahi Kabupaten: Pencarian dan penyaringan data 514 kabupaten/kota.
+- Jelajahi Kabupaten: Pencarian dan penyaringan data 416 kabupaten.
 - Detail Kabupaten: Informasi NCPR, grafik historis, kelas, dan status prediksi wilayah.
 - Tentang Sistem: Penjelasan metode, evaluasi model, sumber data, dan keterbatasan penelitian.
 
@@ -22,8 +22,7 @@ Untuk membuat versi produksi:
   npm run build
 
 Pengelolaan Data
-- src/data/penelitianSnapshot.json — Data penelitian bawaan frontend.
-- public/ncpr.json — File hasil ekspor pipeline Python yang digunakan jika tersedia.
+- public/ncpr_2027.json — Satu-satunya sumber data resmi dan hasil ramalan, diekspor dari Google Colab.
 - Prediksi FT-Transformer diproses secara terpisah menggunakan Python melalui metode Static (Batch) Inference.
 
-Website mencakup 514 kabupaten/kota, dengan 402 kabupaten dalam cakupan peramalan dan 112 wilayah tidak diramal.
+Website mengikuti ncpr_2027.json: 416 kabupaten, 403 diramal dan 13 tidak diramal (model utama 20 fitur).

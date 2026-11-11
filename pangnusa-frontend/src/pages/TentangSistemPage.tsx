@@ -80,7 +80,7 @@ export default function TentangSistemPage() {
     : (data.meta.data_produksi_sampai || 'periode pengamatan')
 
   if (loading) return <p role="status" className="py-12 text-center text-[13px] text-[#627788]">Memuat hasil penelitian PANGNUSA...</p>
-  if (error) return <p role="alert" className="rounded-xl border border-[#E5CDD0] bg-[#FFF8F8] p-5 text-[13px] text-[#A33A42]">Data PANGNUSA gagal dimuat: {error} Periksa file public/ncpr.json.</p>
+  if (error) return <p role="alert" className="rounded-xl border border-[#E5CDD0] bg-[#FFF8F8] p-5 text-[13px] text-[#A33A42]">Data PANGNUSA gagal dimuat: {error} Periksa file public/ncpr_2027.json.</p>
 
   return (
     <>
@@ -176,13 +176,13 @@ export default function TentangSistemPage() {
             <div>
               <h3 className="text-[12px] font-bold text-[#17505E]">Mekanisme Penyajian Hasil Prediksi</h3>
               <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
-                PANGNUSA menggunakan pendekatan <strong>Static (Batch) Inference</strong>. Model FT-Transformer tidak dijalankan secara langsung ketika pengguna mengakses website. Sebaliknya, website menampilkan hasil prediksi yang telah diproses melalui Google Colab dan diekspor ke dalam file <code className="font-semibold">ncpr.json</code>.
+                PANGNUSA menggunakan pendekatan <strong>Static (Batch) Inference</strong>. Pemodelan FT-Transformer dan peramalan NCPR untuk FSVA 2027 dilakukan di Google Colab. Hasilnya kemudian diekspor ke file <code className="font-semibold">ncpr_2027.json</code> untuk ditampilkan di website, tanpa menjalankan model setiap kali pengguna mengaksesnya.
               </p>
               <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
-                Pendekatan ini dipilih karena penelitian berfokus pada prediksi NCPR untuk <strong>FSVA 2027</strong>, bukan peramalan berkelanjutan untuk bertahun-tahun ke depan. Proses pemodelan dan hasil prediksi sudah tersedia di Google Colab, sehingga tidak diperlukan inferensi ulang pada setiap kunjungan pengguna.
+                Pendekatan ini sesuai dengan siklus pemutakhiran <strong>Food Security and Vulnerability Atlas (FSVA) yang bersifat tahunan</strong>, sehingga data hasil penelitian tidak perlu dihitung ulang setiap kali halaman dibuka. Penyajian melalui file JSON juga membuat website lebih ringan dan tidak memerlukan server khusus untuk menjalankan model.
               </p>
               <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
-                Pendekatan ini juga selaras dengan siklus pemutakhiran FSVA yang bersifat <strong>tahunan</strong>. Jika penelitian diperbarui, hasil prediksi dapat diekspor kembali dan file JSON pada website diganti tanpa menjalankan model melalui server.
+                Ketika data dan hasil pemodelan diperbarui, proses peramalan dapat dijalankan kembali di Google Colab, lalu file hasil ekspor pada website diperbarui.
               </p>
               <p className="mt-2 text-[11px] leading-5 text-[#6D8791]">
                 Referensi: <a href="https://badanpangan.go.id/katalog-data" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#087F8C] underline underline-offset-2 hover:text-[#075E69]">Katalog Data Prioritas Badan Pangan Nasional</a> (jadwal pemutakhiran FSVA: tahunan).
