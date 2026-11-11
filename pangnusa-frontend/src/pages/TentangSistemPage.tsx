@@ -185,7 +185,7 @@ export default function TentangSistemPage() {
                 Ketika data dan hasil pemodelan diperbarui, proses peramalan dapat dijalankan kembali di Google Colab, lalu file hasil ekspor pada website diperbarui.
               </p>
               <p className="mt-2 text-[11px] leading-5 text-[#6D8791]">
-                Referensi: <a href="https://badanpangan.go.id/katalog-data" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#087F8C] underline underline-offset-2 hover:text-[#075E69]">Katalog Data Prioritas Badan Pangan Nasional</a> (jadwal pemutakhiran FSVA: tahunan).
+                Referensi: <a href="https://data.badanpangan.go.id/statisticpublications" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#087F8C] underline underline-offset-2 hover:text-[#075E69]">Publikasi FSVA 2026 — Badan Pangan Nasional</a> (pemutakhiran FSVA: tahunan).
               </p>
             </div>
           </div>
