@@ -1,6 +1,6 @@
 import {
   AlertTriangle, ArrowRight, BookOpen, CalendarDays, ChartNoAxesCombined,
-  CheckCircle2, Database, FlaskConical, Info, Layers3,
+  CheckCircle2, Database, Info, Layers3,
   ShieldCheck, Target,
 } from 'lucide-react'
 import { PageHeading, SurfaceCard } from '../components/DesignUI'
@@ -70,7 +70,6 @@ function SectionTitle({ icon: Icon, title }: {
 export default function TentangSistemPage() {
   const { data, loading, error } = useNcprData()
   const kinerja = data.meta.kinerja ?? {}
-  const skenario20 = data.meta.skenario?.['20_fitur']?.kinerja ?? kinerja
   const totalKabupaten = data.kabupaten.filter((k) => k.jenis === 'Kabupaten').length
   const totalDiramal = data.kabupaten.filter((k) => k.jenis === 'Kabupaten' && k.diramal).length
   const jumlahBelumDiramal = totalKabupaten - totalDiramal
@@ -212,36 +211,6 @@ export default function TentangSistemPage() {
         <div className="mt-4 flex items-start gap-2.5 rounded-xl border border-[#F1E4C9] bg-[#FFFBF2] p-4 text-[12px] leading-5 text-[#846B42]">
           <AlertTriangle size={17} className="mt-0.5 shrink-0 text-[#B48232]" aria-hidden="true" />
           <p><strong>Perhatikan:</strong> Akurasi status tidak menunjukkan seluruh perubahan terdeteksi. Pada pengujian FSVA 2026, model masih melewatkan sebagian perubahan status. Hasil pengujian tidak menjamin hasil ramalan FSVA 2027.</p>
-        </div>
-        <div className="mt-5 border-t border-[#EDF1F3] pt-4">
-          <div className="flex items-start gap-2">
-            <FlaskConical size={17} className="mt-0.5 shrink-0 text-[#087F8C]" aria-hidden="true" />
-            <div>
-              <p className="text-[12px] font-bold text-[#142B3B]">Hasil Pengujian Model</p>
-              <p className="mt-1 text-[12px] leading-5 text-[#728697]"> Hasil evaluasi model FT-Transformer 20 fitur pada data uji FSVA 2026.</p>
-            </div>
-          </div>
-          <div className="mt-3 overflow-x-auto rounded-xl border border-[#E7EDF0]">
-            <table className="w-full min-w-[530px] text-left text-[12px]">
-              <thead className="bg-[#F4F8F9] font-bold text-[#526B7D]">
-                <tr>
-                  <th scope="col" className="px-4 py-3">Model uji FSVA 2026</th>
-                  <th scope="col" className="px-3 py-3 text-right">MASE</th>
-                  <th scope="col" className="px-3 py-3 text-right">Akurasi status</th>
-                  <th scope="col" className="px-4 py-3 text-right">Perubahan terdeteksi</th>
-                </tr>
-              </thead>
-              
-              <tbody className="text-[#526A7C]">
-                <tr className="border-t border-[#E8EDF0] bg-[#F4FAF9]">
-                  <td className="px-4 py-3">20 fitur</td>
-                  <td className="px-3 py-3 text-right tabular-nums"> {desimal(skenario20.mase)}</td>
-                  <td className="px-3 py-3 text-right tabular-nums"> {persentase(skenario20.akurasi_status_persen)} </td>
-                  <td className="px-4 py-3 text-right tabular-nums"> {rasio( skenario20.perubahan_status_tertangkap, skenario20.perubahan_status_sebenarnya )} </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </div>
       </SurfaceCard>
 
