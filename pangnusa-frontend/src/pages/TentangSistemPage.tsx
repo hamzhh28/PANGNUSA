@@ -71,7 +71,6 @@ export default function TentangSistemPage() {
   const { data, loading, error } = useNcprData()
   const kinerja = data.meta.kinerja ?? {}
   const skenario20 = data.meta.skenario?.['20_fitur']?.kinerja ?? kinerja
-  const skenario4 = data.meta.skenario?.['4_fitur']?.kinerja ?? {}
   const totalKabupaten = data.kabupaten.filter((k) => k.jenis === 'Kabupaten').length
   const totalDiramal = data.kabupaten.filter((k) => k.jenis === 'Kabupaten' && k.diramal).length
   const jumlahBelumDiramal = totalKabupaten - totalDiramal
@@ -218,8 +217,8 @@ export default function TentangSistemPage() {
           <div className="flex items-start gap-2">
             <FlaskConical size={17} className="mt-0.5 shrink-0 text-[#087F8C]" aria-hidden="true" />
             <div>
-              <p className="text-[12px] font-bold text-[#142B3B]">Perbandingan skenario penelitian</p>
-              <p className="mt-1 text-[12px] leading-5 text-[#728697]">Model 4 fitur diuji sebagai pembanding. <strong className="text-[#526A7C]">PANGNUSA menggunakan model utama 20 fitur untuk ramalan 2027.</strong></p>
+              <p className="text-[12px] font-bold text-[#142B3B]">Hasil Pengujian Model</p>
+              <p className="mt-1 text-[12px] leading-5 text-[#728697]"> Hasil evaluasi model FT-Transformer 20 fitur pada data uji FSVA 2026.</p>
             </div>
           </div>
           <div className="mt-3 overflow-x-auto rounded-xl border border-[#E7EDF0]">
@@ -232,18 +231,13 @@ export default function TentangSistemPage() {
                   <th scope="col" className="px-4 py-3 text-right">Perubahan terdeteksi</th>
                 </tr>
               </thead>
+              
               <tbody className="text-[#526A7C]">
                 <tr className="border-t border-[#E8EDF0] bg-[#F4FAF9]">
-                  <td className="px-4 py-3 font-bold text-[#142B3B]">20 fitur · model utama</td>
-                  <td className="px-3 py-3 text-right tabular-nums">{desimal(skenario20.mase)}</td>
-                  <td className="px-3 py-3 text-right tabular-nums">{persentase(skenario20.akurasi_status_persen)}</td>
-                  <td className="px-4 py-3 text-right tabular-nums">{rasio(skenario20.perubahan_status_tertangkap, skenario20.perubahan_status_sebenarnya)}</td>
-                </tr>
-                <tr className="border-t border-[#E8EDF0]">
-                  <td className="px-4 py-3">4 fitur · skenario pembanding</td>
-                  <td className="px-3 py-3 text-right tabular-nums">{desimal(skenario4.mase)}</td>
-                  <td className="px-3 py-3 text-right tabular-nums">{persentase(skenario4.akurasi_status_persen)}</td>
-                  <td className="px-4 py-3 text-right tabular-nums">{rasio(skenario4.perubahan_status_tertangkap, skenario4.perubahan_status_sebenarnya)}</td>
+                  <td className="px-4 py-3">20 fitur</td>
+                  <td className="px-3 py-3 text-right tabular-nums"> {desimal(skenario20.mase)}</td>
+                  <td className="px-3 py-3 text-right tabular-nums"> {persentase(skenario20.akurasi_status_persen)} </td>
+                  <td className="px-4 py-3 text-right tabular-nums"> {rasio( skenario20.perubahan_status_tertangkap, skenario20.perubahan_status_sebenarnya )} </td>
                 </tr>
               </tbody>
             </table>
