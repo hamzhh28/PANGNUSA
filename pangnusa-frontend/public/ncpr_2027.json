@@ -1,6 +1,6 @@
 {
  "meta": {
-  "dibuat": "2026-11-11",
+  "dibuat": "2026-11-19",
   "edisi_awal": "FSVA 2026",
   "kondisi_awal": 2025,
   "edisi_ramalan": "FSVA 2027",
@@ -115,6 +115,12 @@
     }
    }
   },
+  "simulasi_2026": {
+   "edisi_awal": "FSVA 2025",
+   "edisi_ramalan": "FSVA 2026",
+   "data_produksi_sampai": "2025-04",
+   "keterangan": "Ramalan FSVA 2026 dari posisi pertengahan 2025, dibandingkan dengan FSVA 2026 resmi. Kinerjanya ada di kinerja_jan_apr setiap skenario."
+  },
   "sumber_data": "dataset_gabungan_kabupaten.csv, notebook Kelompok_6_FT_Transformer_v2.ipynb"
  },
  "kabupaten": [
@@ -144,6 +150,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8828,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8048,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7988,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -176,6 +193,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9586,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9208,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -206,6 +234,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0971,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0865,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -234,6 +273,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6726,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7057,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6889,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -266,6 +316,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5787,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5847,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -294,6 +355,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.6427,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.1421,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8499,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -326,6 +398,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5897,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.594,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -354,6 +437,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4438,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5348,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5247,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -386,6 +480,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2833,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3049,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -414,6 +519,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7817,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6627,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6335,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -446,6 +562,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3675,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.372,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -474,6 +601,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4031,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3562,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4014,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -506,6 +644,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7252,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.824,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -535,6 +684,17 @@
      "ncpr_ramalan": 1.1038,
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7718,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8031,
+     "perubahan_status": "tetap_surplus"
     }
    }
   },
@@ -566,6 +726,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "keluar_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.1189,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.5708,
+     "perubahan_status": "masuk_defisit"
+    }
    }
   },
   {
@@ -594,6 +765,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4692,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4372,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4305,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -626,6 +808,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.138,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.1206,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -654,6 +847,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4775,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2594,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.265,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -686,6 +890,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7842,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7988,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -714,6 +929,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6214,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7605,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8162,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -746,6 +972,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4841,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.504,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -774,6 +1011,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.5518,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1531,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3026,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -806,6 +1054,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3247,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.324,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -834,6 +1093,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2461,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3258,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3176,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -866,6 +1136,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0225,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0662,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -894,6 +1175,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.4215,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.4908,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6139,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -926,6 +1218,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9347,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7907,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -954,6 +1257,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.716,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.446,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4295,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -986,6 +1300,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.347,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3439,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1014,6 +1339,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1052,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1136,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0874,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1046,6 +1382,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1239,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1629,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -1074,6 +1421,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.9179,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.6122,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6141,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1106,6 +1464,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.357,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.35,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1136,6 +1505,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8709,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9111,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -1164,6 +1544,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7025,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4718,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4654,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1196,6 +1587,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.19,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1881,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1225,6 +1627,17 @@
      "ncpr_ramalan": 0.7713,
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.956,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9827,
+     "perubahan_status": "keluar_defisit"
     }
    }
   },
@@ -1256,6 +1669,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8881,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0072,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -1286,6 +1710,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.842,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9762,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -1314,6 +1749,17 @@
     "20_fitur": {
      "ncpr_ramalan": 7.8807,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 8.1003,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.6675,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1346,6 +1792,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9122,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9199,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1376,6 +1833,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.2776,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0793,
+     "perubahan_status": "masuk_defisit"
+    }
    }
   },
   {
@@ -1404,6 +1872,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.6403,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.5782,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6052,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1436,6 +1915,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.4396,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.0124,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -1464,6 +1954,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4702,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4576,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4514,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1496,6 +1997,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3618,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3583,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1524,6 +2036,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7813,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6707,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6969,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1556,6 +2079,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3607,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3518,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1584,6 +2118,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6418,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5333,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5267,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1616,6 +2161,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5827,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1644,6 +2200,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5929,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4244,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4012,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1676,6 +2243,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3649,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.349,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1704,6 +2282,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5187,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4956,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4922,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1736,6 +2325,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8877,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9141,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -1764,6 +2364,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8746,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7502,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7604,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -1796,6 +2407,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.7151,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.2122,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -1824,6 +2446,17 @@
     "20_fitur": {
      "ncpr_ramalan": 8.7824,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9025,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8946,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1856,6 +2489,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.104,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3532,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -1884,6 +2528,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.4057,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.1655,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8642,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1916,6 +2571,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.4927,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.895,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -1944,6 +2610,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.1063,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 7.4648,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 7.5229,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -1976,6 +2653,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 7.9906,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.9379,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2004,6 +2692,17 @@
     "20_fitur": {
      "ncpr_ramalan": 5.4321,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.5932,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.0693,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2036,6 +2735,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.4612,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8594,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2064,6 +2774,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2212,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0373,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0616,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -2096,6 +2817,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4998,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4915,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2124,6 +2856,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.6678,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.3817,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.8585,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2156,6 +2899,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.2702,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.7266,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2184,6 +2938,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.5322,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.6894,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.1975,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2216,6 +2981,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.5915,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.5109,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2244,6 +3020,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1564,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9619,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1816,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2276,6 +3063,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.536,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6865,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2304,6 +3102,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.6596,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.2466,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.703,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2336,6 +3145,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.6408,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.3133,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2364,6 +3184,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.0883,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.8852,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.1977,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2396,6 +3227,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2395,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2342,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2424,6 +3266,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.3939,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.044,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3313,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2456,6 +3309,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9303,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1207,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2484,6 +3348,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5132,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6458,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6481,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -2516,6 +3391,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6974,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7312,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2544,6 +3430,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1254,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1543,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1504,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -2576,6 +3473,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7077,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8367,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2604,6 +3512,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1498,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1251,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1196,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -2636,6 +3555,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5453,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6298,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2664,6 +3594,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.0977,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.4472,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.4455,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2696,6 +3637,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1068,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1686,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2724,6 +3676,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.876,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.6665,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.0056,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2756,6 +3719,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4667,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5483,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2784,6 +3758,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.2907,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0415,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1845,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2816,6 +3801,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.5327,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.9087,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -2844,6 +3840,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8922,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5747,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6836,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -2876,6 +3883,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6037,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7114,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2904,6 +3922,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.7303,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7833,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0654,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2936,6 +3965,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4343,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4536,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -2964,6 +4004,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.2418,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.2478,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3023,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -2996,6 +4047,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.9457,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.543,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3024,6 +4086,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8517,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9572,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9588,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3056,6 +4129,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7816,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.804,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3084,6 +4168,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2056,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2284,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2313,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3116,6 +4211,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0838,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0892,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3144,6 +4250,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.094,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1016,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0957,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3176,6 +4293,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0949,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1077,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3204,6 +4332,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3793,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.351,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3413,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3236,6 +4375,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0404,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0387,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3264,6 +4414,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2663,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3341,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3415,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3296,6 +4457,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.422,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4514,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3324,6 +4496,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.0738,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0615,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0679,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3356,6 +4539,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0584,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0565,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3384,6 +4578,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4745,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4689,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5141,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3416,6 +4621,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.7575,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.0191,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3444,6 +4660,17 @@
     "20_fitur": {
      "ncpr_ramalan": 8.9662,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.8564,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9098,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -3476,6 +4703,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.3274,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.6542,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3504,6 +4742,17 @@
     "20_fitur": {
      "ncpr_ramalan": 8.2264,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 8.4241,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.9153,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -3536,6 +4785,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7075,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.705,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3564,6 +4824,17 @@
     "20_fitur": {
      "ncpr_ramalan": 8.3691,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 8.7382,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.5811,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -3596,6 +4867,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9152,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8798,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3624,6 +4906,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.8656,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9152,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8822,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -3656,6 +4949,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.8458,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9658,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3684,6 +4988,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.8719,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.5632,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.4974,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -3716,6 +5031,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9152,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.874,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3735,7 +5061,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 3201,
@@ -3763,6 +5090,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.3434,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.7818,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.7633,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -3795,6 +5133,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6073,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7031,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3823,6 +5172,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5642,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5646,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5952,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3855,6 +5215,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1798,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.2848,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -3883,6 +5254,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6181,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4968,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5164,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3915,6 +5297,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7471,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8193,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -3943,6 +5336,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6696,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6751,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7786,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -3975,6 +5379,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6986,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7391,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4003,6 +5418,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8073,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7754,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8389,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4035,6 +5461,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5477,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5536,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4063,6 +5500,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5414,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5784,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5819,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4095,6 +5543,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2466,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2537,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4123,6 +5582,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2329,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2632,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2743,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4155,6 +5625,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7704,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8179,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4183,6 +5664,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4813,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4122,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4333,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4215,6 +5707,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.4018,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.4568,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -4243,6 +5746,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.3987,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.5197,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.5706,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -4275,6 +5789,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5377,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5875,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4303,6 +5828,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4452,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5016,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.496,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4335,6 +5871,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0679,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1177,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -4365,6 +5912,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9566,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9483,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -4393,6 +5951,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1883,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0668,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0693,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -4425,6 +5994,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6246,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6255,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4453,6 +6033,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5104,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4618,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4788,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4485,6 +6076,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1655,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.2081,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -4513,6 +6115,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.2806,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.2338,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3013,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -4545,6 +6158,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7051,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7025,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4573,6 +6197,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6677,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6841,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7071,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4605,6 +6240,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4528,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4939,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4633,6 +6279,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2376,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1939,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2014,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4665,6 +6322,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5914,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6058,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4693,6 +6361,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3125,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2888,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2939,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4725,6 +6404,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3527,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3553,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4753,6 +6443,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3233,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2989,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3095,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4785,6 +6486,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5672,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6191,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4813,6 +6525,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2625,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3019,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3113,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4845,6 +6568,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8573,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8743,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4873,6 +6607,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7832,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6435,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6673,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -4905,6 +6650,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.415,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4194,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -4933,6 +6689,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.0036,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1753,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.172,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -4965,6 +6732,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.332,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.3458,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -4994,6 +6772,17 @@
      "ncpr_ramalan": 1.0455,
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8705,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.899,
+     "perubahan_status": "tetap_surplus"
     }
    }
   },
@@ -5025,6 +6814,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.005,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9886,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5055,6 +6855,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.887,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9063,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5083,6 +6894,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7534,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7412,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7356,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5115,6 +6937,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8836,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9121,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5143,6 +6976,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8232,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7782,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7976,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5175,6 +7019,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6122,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6455,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5203,6 +7058,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.3368,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.3435,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3805,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -5235,6 +7101,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1833,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1888,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5263,6 +7140,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.5847,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.695,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.7102,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -5295,6 +7183,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4269,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4793,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5323,6 +7222,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3063,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.303,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3029,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5355,6 +7265,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5052,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5687,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5383,6 +7304,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6783,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6109,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7031,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5415,6 +7347,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6555,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7624,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5443,6 +7386,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.035,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9946,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0524,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -5475,6 +7429,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6331,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6557,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5503,6 +7468,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6144,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6004,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6235,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5535,6 +7511,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6142,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6158,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5563,6 +7550,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5686,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6121,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6475,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5595,6 +7593,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4434,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4496,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5623,6 +7632,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5082,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5266,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5341,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5655,6 +7675,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.659,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7059,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5683,6 +7714,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8224,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9894,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9817,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5715,6 +7757,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.1247,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.1017,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -5743,6 +7796,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5531,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.576,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5848,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5775,6 +7839,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5839,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6054,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5803,6 +7878,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4256,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4334,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.435,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5835,6 +7921,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3167,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3204,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5863,6 +7960,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3289,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3326,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.334,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5895,6 +8003,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2237,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2263,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5923,6 +8042,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2781,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.275,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2816,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -5955,6 +8085,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3219,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3329,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -5983,6 +8124,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2821,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2939,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2959,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6015,6 +8167,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6673,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6765,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6043,6 +8206,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8119,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.768,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8309,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6075,6 +8249,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.604,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6513,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6103,6 +8288,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.0394,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9439,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1312,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -6135,6 +8331,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7666,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7867,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6163,6 +8370,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4807,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4538,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5135,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6195,6 +8413,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5172,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5844,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6223,6 +8452,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.3522,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.6872,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.9851,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -6255,6 +8495,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6645,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7354,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6285,6 +8536,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7399,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9058,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -6313,6 +8575,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5039,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6207,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6293,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6345,6 +8618,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.3248,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.266,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -6375,6 +8659,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0339,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0024,
+     "perubahan_status": "masuk_defisit"
+    }
    }
   },
   {
@@ -6403,6 +8698,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.7131,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1519,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1698,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -6435,6 +8741,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.6033,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6068,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -6463,6 +8780,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.5687,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.3188,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3482,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -6495,6 +8823,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.086,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.9113,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -6525,6 +8864,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9749,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9894,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -6553,6 +8903,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5028,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5217,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5386,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6585,6 +8946,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8539,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8672,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6613,6 +8985,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1634,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1891,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1876,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6645,6 +9028,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2505,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2621,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6673,6 +9067,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3307,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3233,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3286,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6705,6 +9110,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.444,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4597,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6733,6 +9149,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8857,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7981,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7935,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6765,6 +9192,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8157,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9531,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -6793,6 +9231,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4168,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6574,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7143,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -6825,6 +9274,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7852,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8735,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -6853,6 +9313,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.0835,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8991,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0623,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -6885,6 +9356,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0526,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1808,
+     "perubahan_status": "masuk_defisit"
+    }
    }
   },
   {
@@ -6913,6 +9395,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.6122,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.992,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1889,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -6945,6 +9438,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.3833,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.7318,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -6973,6 +9477,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.2015,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.306,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.3741,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7005,6 +9520,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.7126,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.1564,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7033,6 +9559,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1984,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0336,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3634,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7065,6 +9602,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.355,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.4291,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7093,6 +9641,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8122,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7655,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7953,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7125,6 +9684,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7819,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7854,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -7155,6 +9725,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7992,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8979,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -7183,6 +9764,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3704,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3415,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3488,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7215,6 +9807,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.563,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5867,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -7243,6 +9846,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8044,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8221,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8217,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7275,6 +9889,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6482,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6568,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -7303,6 +9928,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5883,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8024,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8279,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7335,6 +9971,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.8059,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.3319,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7363,6 +10010,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3554,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4724,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4754,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7395,6 +10053,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5569,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5627,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -7423,6 +10092,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7392,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6812,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.783,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7455,6 +10135,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5882,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.62,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -7483,6 +10174,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8495,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6808,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.669,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7515,6 +10217,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1232,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1884,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7545,6 +10258,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1845,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1352,
+     "perubahan_status": "masuk_defisit"
+    }
    }
   },
   {
@@ -7573,6 +10297,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.3394,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.9203,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8236,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7605,6 +10340,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.6902,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.6341,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7633,6 +10379,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.4599,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.963,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0071,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7665,6 +10422,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.8322,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.7674,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7693,6 +10461,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8428,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8879,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8582,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7725,6 +10504,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.8479,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.844,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7753,6 +10543,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.8551,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 8.3796,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.9421,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7785,6 +10586,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.7266,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.1198,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7813,6 +10625,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7597,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5301,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5207,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -7845,6 +10668,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.8945,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8056,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7873,6 +10707,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.0313,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1351,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3112,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7905,6 +10750,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.6252,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.7124,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7933,6 +10789,17 @@
     "20_fitur": {
      "ncpr_ramalan": 6.1208,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.4293,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.8644,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -7965,6 +10832,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.9286,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.8469,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -7993,6 +10871,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7705,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7284,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7611,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -8025,6 +10914,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2398,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2303,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8053,6 +10953,17 @@
     "20_fitur": {
      "ncpr_ramalan": 8.8149,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9904,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9901,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8085,6 +10996,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8349,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9507,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -8113,6 +11035,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.0342,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9635,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8572,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8145,6 +11078,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4659,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4621,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8173,6 +11117,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.1382,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.8008,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.3394,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8205,6 +11160,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5438,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.597,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8233,6 +11199,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1469,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1519,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2034,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -8265,6 +11242,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.215,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2344,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8293,6 +11281,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3528,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9477,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6522,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -8325,6 +11324,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3657,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.362,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8353,6 +11363,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7807,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4068,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.461,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -8385,6 +11406,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9141,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8847,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8414,6 +11446,17 @@
      "ncpr_ramalan": 0.9919,
      "kelas_ramalan": 4,
      "perubahan_status": "keluar_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.4828,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.4648,
+     "perubahan_status": "tetap_defisit"
     }
    }
   },
@@ -8445,6 +11488,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6645,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.915,
+     "perubahan_status": "keluar_defisit"
+    }
    }
   },
   {
@@ -8473,6 +11527,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.7403,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5831,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7239,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -8505,6 +11570,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.2357,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.6243,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8533,6 +11609,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1675,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.8773,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1407,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8565,6 +11652,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.8178,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.8693,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8593,6 +11691,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.8029,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.89,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.7277,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8625,6 +11734,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0017,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0434,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8653,6 +11773,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.112,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0683,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.0978,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8685,6 +11816,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.4506,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.6393,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8713,6 +11855,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1959,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.8081,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.8202,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8745,6 +11898,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.51,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.4833,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8773,6 +11937,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.1679,
      "kelas_ramalan": 3,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1877,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.2002,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8805,6 +11980,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3378,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3739,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -8833,6 +12019,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.7747,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.1364,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.0625,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8865,6 +12062,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.7461,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.7242,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8893,6 +12101,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.3134,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.0438,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.9773,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8925,6 +12144,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.9376,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.8966,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -8953,6 +12183,17 @@
     "20_fitur": {
      "ncpr_ramalan": 4.1818,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.172,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.2999,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -8985,6 +12226,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6115,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.638,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9013,6 +12265,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.8279,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9219,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8545,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -9045,6 +12308,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0139,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1567,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9073,6 +12347,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.8863,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.4036,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.0905,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -9105,6 +12390,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.2565,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.3219,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9133,6 +12429,17 @@
     "20_fitur": {
      "ncpr_ramalan": 5.063,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.61,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 6.1411,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -9165,6 +12472,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3687,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3377,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9193,6 +12511,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.4766,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.4913,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3602,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -9225,6 +12554,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6103,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6096,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9255,6 +12595,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.1277,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1098,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9283,6 +12634,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6166,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6418,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6372,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9315,6 +12677,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9127,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1614,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9343,6 +12716,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3398,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3224,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3159,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9375,6 +12759,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.8145,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.8633,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9403,6 +12798,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4321,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5498,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5178,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9435,6 +12841,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9373,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.913,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9463,6 +12880,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5721,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6583,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.644,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9495,6 +12923,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.4688,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8606,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -9523,6 +12962,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3873,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2813,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3036,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9555,6 +13005,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4956,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5007,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9583,6 +13044,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4766,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3902,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4093,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9615,6 +13087,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4753,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4795,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9643,6 +13126,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3733,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3554,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.357,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9675,6 +13169,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4849,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4778,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9703,6 +13208,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3017,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4498,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.458,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9735,6 +13251,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5616,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5785,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9763,6 +13290,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2145,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2701,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2615,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9795,6 +13333,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1215,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1268,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9823,6 +13372,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1136,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1128,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1091,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9855,6 +13415,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0595,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0629,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9883,6 +13454,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1251,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.0913,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0819,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9915,6 +13497,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1126,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.0971,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -9943,6 +13536,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.6741,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6741,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6812,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -9975,6 +13579,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2455,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2277,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10003,6 +13618,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.9909,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.7041,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8117,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10035,6 +13661,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3665,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3498,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10063,6 +13700,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1568,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4139,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3374,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10095,6 +13743,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5158,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5628,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10123,6 +13782,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.0365,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.6468,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.7131,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -10155,6 +13825,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.2868,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.5002,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10183,6 +13864,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.1891,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2524,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.255,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10215,6 +13907,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6926,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.811,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10243,6 +13946,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5943,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4596,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5182,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10275,6 +13989,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2758,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.2883,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10303,6 +14028,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.4536,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.6346,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.6864,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -10335,6 +14071,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.3628,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.899,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10363,6 +14110,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.5415,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.7435,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.663,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -10395,6 +14153,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0483,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.3068,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10423,6 +14192,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2728,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1689,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1894,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10455,6 +14235,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 6.9887,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 7.8731,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10483,6 +14274,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.6807,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.9085,
+     "perubahan_status": "keluar_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.1457,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -10515,6 +14317,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.0556,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.1338,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10543,6 +14356,17 @@
     "20_fitur": {
      "ncpr_ramalan": 1.4547,
      "kelas_ramalan": 2,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.6394,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.8723,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -10575,6 +14399,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3675,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3798,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10603,6 +14438,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4394,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.4703,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.4911,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10635,6 +14481,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.2799,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3092,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10665,6 +14522,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "masuk_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "keluar_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.2666,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.2667,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10693,6 +14561,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.3784,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.3971,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.3916,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10725,6 +14604,17 @@
      "kelas_ramalan": 5,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6964,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7223,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10753,6 +14643,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.4755,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5443,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.5408,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10785,6 +14686,17 @@
      "kelas_ramalan": 6,
      "perubahan_status": "tetap_surplus"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6356,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6187,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -10813,6 +14725,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.8302,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.6899,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6662,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10845,6 +14768,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 7.8983,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.0219,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10873,6 +14807,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.909,
      "kelas_ramalan": 4,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.84,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.8616,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -10905,6 +14850,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.2716,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.4215,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10933,6 +14889,17 @@
     "20_fitur": {
      "ncpr_ramalan": 4.3951,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.4876,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.5148,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -10965,6 +14932,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.6552,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6322,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -10993,6 +14971,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.5188,
      "kelas_ramalan": 5,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.5855,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.6092,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -11025,6 +15014,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.8864,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9172,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11053,6 +15053,17 @@
     "20_fitur": {
      "ncpr_ramalan": 4.4986,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.4852,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.5798,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11085,6 +15096,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.8372,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.4865,
+     "perubahan_status": "masuk_defisit"
+    }
    }
   },
   {
@@ -11113,6 +15135,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.0557,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.0322,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.0589,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11145,6 +15178,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.8744,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 4.9049,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11173,6 +15217,17 @@
     "20_fitur": {
      "ncpr_ramalan": 6.8838,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9972,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9827,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11205,6 +15260,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.0219,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.0009,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11233,6 +15299,17 @@
     "20_fitur": {
      "ncpr_ramalan": 4.7738,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9509,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9048,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11265,6 +15342,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9677,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9899,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11293,6 +15381,17 @@
     "20_fitur": {
      "ncpr_ramalan": 4.7621,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.8969,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.1253,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11325,6 +15424,17 @@
      "kelas_ramalan": 2,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.189,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.5569,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11353,6 +15463,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.8897,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.7491,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.6616,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11385,6 +15506,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9509,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8974,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11413,6 +15545,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.8393,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.0828,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.4213,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11445,6 +15588,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 1.0085,
+     "perubahan_status": "masuk_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.9919,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -11473,6 +15627,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.874,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9548,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9831,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11505,6 +15670,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.3035,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.4926,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11533,6 +15709,17 @@
     "20_fitur": {
      "ncpr_ramalan": 4.9889,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 4.3369,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.3169,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11565,6 +15752,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.6519,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.6964,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11593,6 +15791,17 @@
     "20_fitur": {
      "ncpr_ramalan": 6.3055,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.6665,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.773,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11625,6 +15834,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.4556,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.5522,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11653,6 +15873,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.455,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9548,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9026,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11685,6 +15916,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9548,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9324,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11715,6 +15957,17 @@
      "kelas_ramalan": 3,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.256,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 1.6319,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11734,7 +15987,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9401,
@@ -11762,6 +16016,17 @@
     "20_fitur": {
      "ncpr_ramalan": 0.2004,
      "kelas_ramalan": 6,
+     "perubahan_status": "tetap_surplus"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_surplus",
+    "4_fitur": {
+     "ncpr_ramalan": 0.1654,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.1997,
      "perubahan_status": "tetap_surplus"
     }
    }
@@ -11794,6 +16059,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.3695,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.486,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11822,6 +16098,17 @@
     "20_fitur": {
      "ncpr_ramalan": 2.9518,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.2501,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.1804,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11854,6 +16141,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.2559,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.7964,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11882,6 +16180,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.9076,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 8.9393,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 8.9509,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -11914,6 +16223,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9559,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8643,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -11933,7 +16253,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9411,
@@ -11952,7 +16273,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9412,
@@ -11982,6 +16304,17 @@
      "kelas_ramalan": 4,
      "perubahan_status": "keluar_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "masuk_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 0.773,
+     "perubahan_status": "tetap_surplus"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 0.7935,
+     "perubahan_status": "tetap_surplus"
+    }
    }
   },
   {
@@ -12010,6 +16343,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.9532,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9559,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9306,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -12042,6 +16386,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 7.4459,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 7.4611,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -12070,6 +16425,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.898,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 2.6095,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 2.6142,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -12102,6 +16468,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9559,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.8981,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -12121,7 +16498,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9418,
@@ -12149,6 +16527,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.8943,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9559,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9021,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -12181,6 +16570,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.1074,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.0906,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -12209,6 +16609,17 @@
     "20_fitur": {
      "ncpr_ramalan": 3.5705,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 3.2785,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 3.5214,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -12241,6 +16652,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 5.4406,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 5.6255,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -12260,7 +16682,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9428,
@@ -12288,6 +16711,17 @@
     "20_fitur": {
      "ncpr_ramalan": 9.9051,
      "kelas_ramalan": 1,
+     "perubahan_status": "tetap_defisit"
+    }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 7.3067,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 7.3276,
      "perubahan_status": "tetap_defisit"
     }
    }
@@ -12320,6 +16754,17 @@
      "kelas_ramalan": 1,
      "perubahan_status": "tetap_defisit"
     }
+   },
+   "simulasi_2026": {
+    "status_sebenarnya": "tetap_defisit",
+    "4_fitur": {
+     "ncpr_ramalan": 9.9559,
+     "perubahan_status": "tetap_defisit"
+    },
+    "20_fitur": {
+     "ncpr_ramalan": 9.9045,
+     "perubahan_status": "tetap_defisit"
+    }
    }
   },
   {
@@ -12339,7 +16784,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9431,
@@ -12358,7 +16804,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9432,
@@ -12377,7 +16824,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9433,
@@ -12396,7 +16844,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9434,
@@ -12415,7 +16864,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9435,
@@ -12434,7 +16884,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   },
   {
    "kode_bps": 9436,
@@ -12453,7 +16904,8 @@
    "perubahan_status": null,
    "kelas_awal": 1,
    "cek_data_produksi": false,
-   "skenario": null
+   "skenario": null,
+   "simulasi_2026": null
   }
  ]
 }
