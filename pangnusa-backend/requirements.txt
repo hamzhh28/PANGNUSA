@@ -1,2 +1,9 @@
-numpy>=1.24,<3
-pandas>=2.0,<3
+# Library untuk menjalankan Kelompok_6_FT_Transformer_v2.ipynb (versi sama dengan run resmi)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+matplotlib==3.10.8
+ipykernel==7.3.0
+nbconvert
