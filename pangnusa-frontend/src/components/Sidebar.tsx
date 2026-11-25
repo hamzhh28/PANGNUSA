@@ -50,7 +50,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
             <span>
               <strong className="block text-[19px] font-bold tracking-[.07em]">PANGNUSA</strong>
               <span className="block text-[11px] tracking-wide text-slate-300">
-                Peringatan Dini Pangan
+                Forecast Ketersediaan Pangan
               </span>
             </span>
           </NavLink>

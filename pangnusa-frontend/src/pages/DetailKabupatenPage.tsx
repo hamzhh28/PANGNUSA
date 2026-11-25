@@ -306,6 +306,8 @@ function GrafikNCPR({ kabupaten }: { kabupaten: NCPRKabupaten }) {
   const r26 = resmi['FSVA 2026'] ?? null
   const r27 = kabupaten.diramal ? kabupaten.ncpr_ramalan ?? null : null
   const hasForecast = typeof r27 === 'number' && Number.isFinite(r27)
+  const r28 = hasForecast ? kabupaten.ncpr_ramalan_2028 ?? null : null
+  const has2028 = typeof r28 === 'number' && Number.isFinite(r28)
   const hasActual = [r24, r25, r26].some((v) => typeof v === 'number' && Number.isFinite(v))
   const points = [
     { edisi: 'FSVA 2024', resmi: r24, ramalan: null as number | null },
@@ -314,7 +316,8 @@ function GrafikNCPR({ kabupaten }: { kabupaten: NCPRKabupaten }) {
   ]
   // Jangan membuat titik ramalan kosong pada sumbu waktu jika nilainya tidak ada.
   if (hasForecast) points.push({ edisi: 'FSVA 2027', resmi: null, ramalan: r27 })
-  const actuals = [r24, r25, r26, r27].filter((v): v is number => typeof v === 'number' && Number.isFinite(v))
+  if (has2028) points.push({ edisi: 'FSVA 2028', resmi: null, ramalan: r28 })
+  const actuals = [r24, r25, r26, r27, r28].filter((v): v is number => typeof v === 'number' && Number.isFinite(v))
   const maxY = Math.max(1.25, ...actuals) * 1.12
 
   return (
@@ -324,7 +327,7 @@ function GrafikNCPR({ kabupaten }: { kabupaten: NCPRKabupaten }) {
           <h2 className="flex items-center gap-2 text-[15px] font-bold text-[#142B3B]">
             <ChartNoAxesCombined size={18} className="text-[#087F8C]" aria-hidden="true" /> Perkembangan NCPR
           </h2>
-          <p className="mt-2 text-[12px] leading-5 text-[#7A8C9B]">FSVA 2024 dihitung ulang dengan metode baru; FSVA 2025–2026 merupakan data resmi.</p>
+          <p className="mt-2 text-[12px] leading-5 text-[#7A8C9B]">FSVA 2024 dihitung ulang dengan metode baru; FSVA 2025–2026 merupakan data resmi.{has2028 && ' FSVA 2028 adalah forecast lanjutan dari FSVA 2027 dengan produksi 2027 dianggap sama dengan 2026.'}</p>
         </div>
         <div className="flex flex-wrap items-center gap-3 text-[11px] font-semibold text-[#637A8C]">
           <span className="inline-flex items-center gap-1.5"><span className="h-0.5 w-5 rounded bg-[#087F8C]" /> Resmi</span>
@@ -334,7 +337,7 @@ function GrafikNCPR({ kabupaten }: { kabupaten: NCPRKabupaten }) {
       </div>
 
       {hasActual ? (
-        <div className="mt-5 h-[250px] w-full sm:h-[310px]" role="img" aria-label={`Grafik NCPR ${namaLengkap(kabupaten)} periode FSVA 2024 sampai ${hasForecast ? '2027' : '2026'}. Data historis numerik tersedia di bawah grafik.`}>
+        <div className="mt-5 h-[250px] w-full sm:h-[310px]" role="img" aria-label={`Grafik NCPR ${namaLengkap(kabupaten)} periode FSVA 2024 sampai ${has2028 ? '2028' : hasForecast ? '2027' : '2026'}. Data historis numerik tersedia di bawah grafik.`}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={points} margin={{ top: 15, right: 12, bottom: 5, left: -15 }}>
               <CartesianGrid stroke="#EAF0F2" strokeDasharray="3 5" vertical={false} />
@@ -342,7 +345,7 @@ function GrafikNCPR({ kabupaten }: { kabupaten: NCPRKabupaten }) {
               <YAxis type="number" domain={[0, maxY]} tick={{ fill: '#8395A1', fontSize: 10 }} tickLine={false} axisLine={false} tickFormatter={(v: number) => v.toLocaleString('id-ID', { maximumFractionDigits: 2 })} width={48} />
               <Tooltip
                 formatter={(value, name) => [typeof value === 'number' ? formatNcpr(value) : '—', name === 'ramalan' ? 'NCPR ramalan' : 'NCPR resmi']}
-                labelFormatter={(label) => label === 'FSVA 2024' ? 'FSVA 2024 (dihitung ulang metode baru)' : String(label)}
+                labelFormatter={(label) => label === 'FSVA 2024' ? 'FSVA 2024 (dihitung ulang metode baru)' : label === 'FSVA 2028' ? 'FSVA 2028 (forecast lanjutan)' : String(label)}
                 contentStyle={{ borderRadius: 12, borderColor: '#E0E8EE', fontSize: 11, boxShadow: '0 6px 20px rgba(20,43,59,.06)' }}
               />
               <ReferenceLine y={1} stroke="#D16B73" strokeDasharray="5 5" strokeWidth={1.6} />
@@ -455,7 +458,7 @@ export default function DetailKabupatenPage() {
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-[#E4E9ED] bg-white px-4 py-4 sm:px-5">
         <p className="max-w-[640px] text-[14px] leading-6 font-semibold text-[#142B3B]">
           {kabupaten.diramal && hasForecastValue
-            ? <>Produksi pangan {nama} diramal mencukupi <strong>{formatKecukupan(ramalan2027)}</strong> kebutuhan penduduknya pada 2026.</>
+            ? <>Produksi pangan {nama} diramal mencukupi <strong>{formatKecukupan(ramalan2027)}</strong> kebutuhan penduduknya pada 2026{typeof kabupaten.ncpr_ramalan_2028 === 'number' && <>, dan sekitar <strong>{formatKecukupan(kabupaten.ncpr_ramalan_2028)}</strong> pada 2027 bila produksi 2027 sama dengan 2026</>}.</>
             : kabupaten.diramal
               ? 'Nilai ramalan kabupaten ini belum tersedia.'
               : `${nama} belum bisa diramal.`}

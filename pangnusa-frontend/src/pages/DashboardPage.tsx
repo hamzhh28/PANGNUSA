@@ -162,8 +162,8 @@ export default function DashboardPage() {
   return (
     <>
       <PageHeading
-        title="Peringatan Dini Ketersediaan Pangan"
-        description="Ringkasan perubahan status NCPR kabupaten dari FSVA 2026 ke ramalan FSVA 2027."
+        title="Forecast Ketersediaan Pangan FSVA 2027"
+        description="Ringkasan perubahan status NCPR kabupaten dari FSVA 2026 ke ramalan FSVA 2027, ditambah forecast lanjutan FSVA 2028."
       />
 
       <section aria-label="Ringkasan nasional" className="mb-5 grid grid-cols-2 gap-3 sm:gap-5 xl:grid-cols-4">
@@ -183,7 +183,7 @@ export default function DashboardPage() {
           </div>
           <span className="rounded-full bg-[#EFF5F6] px-3 py-1 text-[11px] font-bold text-[#486E79]">{ringkasan.diramal} kabupaten</span>
         </div>
-        <div className="mt-6 grid grid-cols-1 items-center gap-4 sm:grid-cols-[1fr_auto_1fr] sm:gap-8">
+        <div className={`mt-6 grid grid-cols-1 items-center gap-4 sm:gap-8 ${ringkasan.persenDefisit2028 != null ? 'sm:grid-cols-[1fr_auto_1fr_auto_1fr]' : 'sm:grid-cols-[1fr_auto_1fr]'}`}>
           <div>
             <p className="text-[12px] font-bold text-[#758A99]">FSVA 2026 · DATA RESMI</p>
             <p className="mt-1 text-[30px] font-bold tracking-tight text-[#142B3B] tabular-nums">{formatPersen(ringkasan.persenDefisitResmi)}</p>
@@ -197,6 +197,17 @@ export default function DashboardPage() {
             <PercentBar value={ringkasan.persenDefisitRamalan} forecast />
             <p className="mt-2 text-[12px] text-[#7A8D9B]">Kondisi tahun 2026</p>
           </div>
+          {ringkasan.persenDefisit2028 != null && (
+            <>
+              <ArrowRight className="hidden text-[#A1B0B9] sm:block" size={22} aria-hidden="true" />
+              <div>
+                <p className="text-[12px] font-bold text-[#758A99]">FSVA 2028 · FORECAST LANJUTAN</p>
+                <p className="mt-1 text-[30px] font-bold tracking-tight text-[#7464C0] tabular-nums">{formatPersen(ringkasan.persenDefisit2028)}</p>
+                <PercentBar value={ringkasan.persenDefisit2028} forecast />
+                <p className="mt-2 text-[12px] text-[#7A8D9B]">Kondisi tahun 2027, produksi dianggap tetap</p>
+              </div>
+            </>
+          )}
         </div>
       </SurfaceCard>
 
@@ -208,7 +219,7 @@ export default function DashboardPage() {
             type="search"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
-            placeholder="Cari kabupaten dalam daftar peringatan..."
+            placeholder="Cari kabupaten dalam daftar..."
             className="h-11 w-full rounded-xl border border-[#DCE6E9] bg-white pl-10 pr-4 text-[12px] text-[#142B3B] shadow-sm placeholder:text-[#96A6B0]"
           />
         </label>
@@ -228,7 +239,7 @@ export default function DashboardPage() {
       <SurfaceCard className="mb-6 overflow-hidden">
         <div className="flex flex-wrap items-center justify-between gap-3 border-l-4 border-l-[#C94249] px-5 py-5 sm:px-6">
           <div>
-            <h2 className="text-[16px] font-bold text-[#142B3B]">Peringatan Dini: Berpotensi Masuk Defisit</h2>
+            <h2 className="text-[16px] font-bold text-[#142B3B]">Berpotensi Masuk Defisit</h2>
             <p className="mt-1 text-[12px] leading-5 text-[#64748B]">Surplus pada FSVA 2026, diprediksi defisit pada FSVA 2027.</p>
           </div>
           <StatusBadge kind="defisit">{ringkasan.masukDefisit} Kabupaten</StatusBadge>
