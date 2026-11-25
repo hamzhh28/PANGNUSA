@@ -120,10 +120,9 @@ function Kecukupan({ ncpr }: { ncpr: number }) {
 }
 
 function NilaiUtama({
-  title, periode, value, badge, kelas, forecast = false, note, unavailableLabel = 'Status belum tersedia',
+  title, value, badge, kelas, forecast = false, note, unavailableLabel = 'Status belum tersedia',
 }: {
   title: string
-  periode: string
   value: number | null | undefined
   badge: 'defisit' | 'surplus' | null
   kelas?: number | null
@@ -134,10 +133,7 @@ function NilaiUtama({
   return (
     <SurfaceCard className={`p-5 sm:p-6 ${forecast ? 'border-[#E3DDF7] bg-[#FEFDFF]' : ''}`}>
       <div className="flex flex-wrap items-start justify-between gap-2">
-        <div>
-          <p className="text-[12px] font-bold text-[#617587]">{title}</p>
-          <p className="mt-1 text-[12px] text-[#94A1AE]">{periode}</p>
-        </div>
+        <p className="text-[12px] font-bold text-[#617587]">{title}</p>
         <span className={`rounded-md px-2.5 py-1 text-[11px] font-bold ${forecast ? 'bg-[#F0EBFD] text-[#7464C0]' : 'bg-[#EAF6F5] text-[#087F8C]'}`}>
           {forecast ? 'RAMALAN' : 'RESMI'}
         </span>
@@ -269,7 +265,7 @@ function Tetangga({ k, p, semua, kembali }: { k: NCPRKabupaten; p: Profil; semua
               >
                 <span className="min-w-0">
                   <span className="block truncate text-[12px] font-bold text-[#142B3B]">{x.nama}</span>
-                  <span className="block truncate text-[11px] text-[#8495A3]">{!x.diramal ? 'resmi 2025, tidak diramal' : x.cek_data_produksi ? 'ramalan 2026 · data perlu dicek' : 'ramalan 2026'}</span>
+                  <span className="block truncate text-[11px] text-[#8495A3]">{!x.diramal ? 'resmi FSVA 2026, tidak diramal' : x.cek_data_produksi ? 'ramalan FSVA 2027 · data perlu dicek' : 'ramalan FSVA 2027'}</span>
                 </span>
                 <Batang ncpr={n} />
                 <span className="text-right text-[12px] font-bold tabular-nums" style={{ color: n >= 1 ? '#B43B43' : HIJAU }}>{formatKecukupan(n)}</span>
@@ -327,7 +323,7 @@ function GrafikNCPR({ kabupaten }: { kabupaten: NCPRKabupaten }) {
           <h2 className="flex items-center gap-2 text-[15px] font-bold text-[#142B3B]">
             <ChartNoAxesCombined size={18} className="text-[#087F8C]" aria-hidden="true" /> Perkembangan NCPR
           </h2>
-          <p className="mt-2 text-[12px] leading-5 text-[#7A8C9B]">FSVA 2024 dihitung ulang dengan metode baru; FSVA 2025–2026 merupakan data resmi.{has2028 && ' FSVA 2028 adalah forecast lanjutan dari FSVA 2027 dengan produksi 2027 dianggap sama dengan 2026.'}</p>
+          <p className="mt-2 text-[12px] leading-5 text-[#7A8C9B]">FSVA 2024 dihitung ulang dengan metode baru; FSVA 2025–2026 merupakan data resmi.{has2028 && ' FSVA 2028 adalah forecast lanjutan dari FSVA 2027 dengan produksi dianggap tidak berubah.'}</p>
         </div>
         <div className="flex flex-wrap items-center gap-3 text-[11px] font-semibold text-[#637A8C]">
           <span className="inline-flex items-center gap-1.5"><span className="h-0.5 w-5 rounded bg-[#087F8C]" /> Resmi</span>
@@ -395,8 +391,8 @@ function LegendaKelas({ k }: { k: NCPRKabupaten }) {
               <p className="text-[12px] font-bold text-[#142B3B]">Kelas {item.kelas}</p>
               <p className="mt-0.5 text-[11px] font-bold text-[#728496]">{item.jenis}</p>
               <p className="mt-1.5 text-[11px] leading-4 text-[#758897]">{item.label}</p>
-              {active && <span className="mt-2 block text-[9px] font-bold text-[#087F8C]">Resmi 2026</span>}
-              {predicted && <span className="mt-2 block text-[9px] font-bold text-[#7464C0]">Ramalan 2027</span>}
+              {active && <span className="mt-2 block text-[9px] font-bold text-[#087F8C]">Resmi FSVA 2026</span>}
+              {predicted && <span className="mt-2 block text-[9px] font-bold text-[#7464C0]">Ramalan FSVA 2027</span>}
             </div>
           )
         })}
@@ -458,7 +454,7 @@ export default function DetailKabupatenPage() {
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-[#E4E9ED] bg-white px-4 py-4 sm:px-5">
         <p className="max-w-[640px] text-[14px] leading-6 font-semibold text-[#142B3B]">
           {kabupaten.diramal && hasForecastValue
-            ? <>Produksi pangan {nama} diramal mencukupi <strong>{formatKecukupan(ramalan2027)}</strong> kebutuhan penduduknya pada 2026{typeof kabupaten.ncpr_ramalan_2028 === 'number' && <>, dan sekitar <strong>{formatKecukupan(kabupaten.ncpr_ramalan_2028)}</strong> pada 2027 bila produksi 2027 sama dengan 2026</>}.</>
+            ? <>Produksi pangan {nama} diramal mencukupi <strong>{formatKecukupan(ramalan2027)}</strong> kebutuhan penduduknya menurut FSVA 2027{typeof kabupaten.ncpr_ramalan_2028 === 'number' && <>, dan sekitar <strong>{formatKecukupan(kabupaten.ncpr_ramalan_2028)}</strong> menurut FSVA 2028 bila produksi tidak berubah</>}.</>
             : kabupaten.diramal
               ? 'Nilai ramalan kabupaten ini belum tersedia.'
               : `${nama} belum bisa diramal.`}
@@ -477,14 +473,12 @@ export default function DetailKabupatenPage() {
       <div className="mb-5 grid gap-4 md:grid-cols-2">
         <NilaiUtama
           title="Kecukupan Pangan · FSVA 2026"
-          periode="Kondisi tahun 2025"
           value={resmi2026}
           badge={status2026(kabupaten)}
           kelas={kabupaten.kelas_awal}
         />
         <NilaiUtama
           title="Ramalan Kecukupan · FSVA 2027"
-          periode="Perkiraan kondisi tahun 2026"
           value={ramalan2027}
           badge={s27}
           kelas={kabupaten.diramal ? kabupaten.kelas_ramalan : null}

@@ -116,7 +116,10 @@ export default function TentangSistemPage() {
         </div>
         <div className="mt-5 border-t border-[#EDF1F3] pt-4">
           <p className="mb-3 flex items-center gap-2 text-[12px] font-bold text-[#142B3B]"><CalendarDays size={16} className="text-[#087F8C]" aria-hidden="true" /> Periode data yang ditampilkan</p>
-          <div className="grid gap-2 md:grid-cols-3">
+          <p className="mb-3 text-[12px] leading-5 text-[#617588]">
+            Semua halaman memakai nama edisi FSVA. Setiap edisi menggambarkan kondisi produksi setahun sebelumnya: <strong className="text-[#32495A]">FSVA 2026 = kondisi 2025, FSVA 2027 = kondisi 2026, FSVA 2028 = kondisi 2027</strong>.
+          </p>
+          <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-4">
             <div className="rounded-lg bg-[#F8FAFB] p-3">
               <p className="text-[12px] font-bold text-[#142B3B]">FSVA 2024–2026</p>
               <p className="mt-1 text-[11px] leading-5 text-[#6E8191]">NCPR metode baru. FSVA 2024 dihitung ulang agar konsisten dengan 2025–2026.</p>
@@ -128,6 +131,10 @@ export default function TentangSistemPage() {
             <div className="rounded-lg border border-[#E5DEF6] bg-[#FBF9FF] p-3">
               <p className="text-[12px] font-bold text-[#7464C0]">FSVA 2027 · Ramalan</p>
               <p className="mt-1 text-[11px] leading-5 text-[#786D97]">Perkiraan kondisi 2026 hasil penelitian; bukan publikasi resmi Badan Pangan Nasional.</p>
+            </div>
+            <div className="rounded-lg border border-[#E5DEF6] bg-[#FBF9FF] p-3">
+              <p className="text-[12px] font-bold text-[#7464C0]">FSVA 2028 · Ramalan lanjutan</p>
+              <p className="mt-1 text-[11px] leading-5 text-[#786D97]">Perkiraan kondisi 2027, diramal dari hasil FSVA 2027 dengan produksi dianggap tidak berubah.</p>
             </div>
           </div>
           <p className="mt-3 text-[11px] leading-5 text-[#8696A3]">Data FSVA 2018–2023 tidak digabungkan karena metode penghitungan NCPR berbeda.</p>

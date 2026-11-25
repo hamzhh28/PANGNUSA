@@ -91,8 +91,8 @@ function WarningList({ items }: { items: KabupatenPeringatan[] }) {
             <tr className="border-y border-[#E9EEF1]">
               <th className="px-6 py-3 font-bold">Kabupaten</th>
               <th className="px-4 py-3 font-bold">Provinsi</th>
-              <th className="px-4 py-3 font-bold text-center">NCPR Resmi 2026</th>
-              <th className="px-4 py-3 font-bold text-center">Ramalan 2027</th>
+              <th className="px-4 py-3 font-bold text-center">NCPR Resmi FSVA 2026</th>
+              <th className="px-4 py-3 font-bold text-center">Ramalan FSVA 2027</th>
               <th className="px-4 py-3 font-bold">Perubahan</th>
               <th className="px-6 py-3 font-bold">Detail</th>
             </tr>
@@ -123,8 +123,8 @@ function WarningList({ items }: { items: KabupatenPeringatan[] }) {
               {item.cekDataProduksi && <StatusBadge kind="warning">Perlu Dicek</StatusBadge>}
             </div>
             <div className="mt-3 grid grid-cols-2 gap-3 rounded-lg bg-[#F8FAFB] p-3 text-[12px]">
-              <div><span className="block text-[#7A8D9B]">Resmi 2026</span><strong className="mt-0.5 block text-[#142B3B]">{formatNcpr(item.ncprResmi)}</strong></div>
-              <div><span className="block text-[#7A8D9B]">Ramalan 2027</span><strong className="mt-0.5 block text-[#142B3B]">{formatNcpr(item.ncprRamalan)}</strong></div>
+              <div><span className="block text-[#7A8D9B]">Resmi FSVA 2026</span><strong className="mt-0.5 block text-[#142B3B]">{formatNcpr(item.ncprResmi)}</strong></div>
+              <div><span className="block text-[#7A8D9B]">Ramalan FSVA 2027</span><strong className="mt-0.5 block text-[#142B3B]">{formatNcpr(item.ncprRamalan)}</strong></div>
             </div>
             <div className="mt-3"><DistrictLink item={item} /></div>
           </div>
@@ -188,14 +188,12 @@ export default function DashboardPage() {
             <p className="text-[12px] font-bold text-[#758A99]">FSVA 2026 · DATA RESMI</p>
             <p className="mt-1 text-[30px] font-bold tracking-tight text-[#142B3B] tabular-nums">{formatPersen(ringkasan.persenDefisitResmi)}</p>
             <PercentBar value={ringkasan.persenDefisitResmi} />
-            <p className="mt-2 text-[12px] text-[#7A8D9B]">Kondisi tahun 2025</p>
           </div>
           <ArrowRight className="hidden text-[#A1B0B9] sm:block" size={22} aria-hidden="true" />
           <div>
             <p className="text-[12px] font-bold text-[#758A99]">FSVA 2027 · HASIL RAMALAN</p>
             <p className="mt-1 text-[30px] font-bold tracking-tight text-[#7464C0] tabular-nums">{formatPersen(ringkasan.persenDefisitRamalan)}</p>
             <PercentBar value={ringkasan.persenDefisitRamalan} forecast />
-            <p className="mt-2 text-[12px] text-[#7A8D9B]">Kondisi tahun 2026</p>
           </div>
           {ringkasan.persenDefisit2028 != null && (
             <>
@@ -204,7 +202,7 @@ export default function DashboardPage() {
                 <p className="text-[12px] font-bold text-[#758A99]">FSVA 2028 · FORECAST LANJUTAN</p>
                 <p className="mt-1 text-[30px] font-bold tracking-tight text-[#7464C0] tabular-nums">{formatPersen(ringkasan.persenDefisit2028)}</p>
                 <PercentBar value={ringkasan.persenDefisit2028} forecast />
-                <p className="mt-2 text-[12px] text-[#7A8D9B]">Kondisi tahun 2027, produksi dianggap tetap</p>
+                <p className="mt-2 text-[12px] text-[#7A8D9B]">Produksi dianggap tetap</p>
               </div>
             </>
           )}
@@ -268,7 +266,7 @@ export default function DashboardPage() {
                 <div><p className="text-[13px] font-bold text-[#142B3B]">{item.nama}</p><p className="text-[12px] text-[#718694]">{item.provinsi}</p></div>
                 <StatusBadge kind="surplus">Keluar Defisit</StatusBadge>
                   {item.cekDataProduksi && <StatusBadge kind="warning">Perlu Dicek</StatusBadge>}
-                  <span className="text-[12px] text-[#657C8A]">NCPR resmi 2026: <strong>{formatNcpr(item.ncprResmi)}</strong></span>
+                  <span className="text-[12px] text-[#657C8A]">NCPR resmi FSVA 2026: <strong>{formatNcpr(item.ncprResmi)}</strong></span>
               </div>
               <DistrictLink item={item} />
             </div>
