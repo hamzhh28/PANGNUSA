@@ -134,7 +134,7 @@ export default function TentangSistemPage() {
             </div>
             <div className="rounded-lg border border-[#E5DEF6] bg-[#FBF9FF] p-3">
               <p className="text-[12px] font-bold text-[#7464C0]">FSVA 2028 · Ramalan lanjutan</p>
-              <p className="mt-1 text-[11px] leading-5 text-[#786D97]">Perkiraan kondisi 2027, diramal dari hasil FSVA 2027 dengan produksi dianggap tidak berubah.</p>
+              <p className="mt-1 text-[11px] leading-5 text-[#786D97]">Perkiraan kondisi 2027, diramal dari hasil FSVA 2027 dengan produksi dianggap tidak berubah. Pratinjau tren; diganti saat FSVA 2027 terbit.</p>
             </div>
           </div>
           <p className="mt-3 text-[11px] leading-5 text-[#8696A3]">Data FSVA 2018–2023 tidak digabungkan karena metode penghitungan NCPR berbeda.</p>
@@ -187,7 +187,10 @@ export default function TentangSistemPage() {
                 Pendekatan ini sesuai dengan siklus pemutakhiran <strong>Food Security and Vulnerability Atlas (FSVA) yang bersifat tahunan</strong>, sehingga data hasil penelitian tidak perlu dihitung ulang setiap kali halaman dibuka. Penyajian melalui file JSON juga membuat website lebih ringan dan tidak memerlukan server khusus untuk menjalankan model.
               </p>
               <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
-                Ketika data dan hasil pemodelan diperbarui, proses peramalan dapat dijalankan kembali di Google Colab, lalu file hasil ekspor pada website diperbarui.
+                <strong>Siklus pembaruan:</strong> setiap kali FSVA baru terbit, biasanya sekitar Agustus (FSVA 2025 diluncurkan 27 Agustus 2025), ramalan edisi itu dibandingkan dengan angka resminya, lalu edisi berikutnya diramal dengan NCPR resmi terbaru dan produksi padi Januari–April tahun berjalan. Contohnya, saat FSVA 2027 terbit sekitar Agustus 2027, ramalan FSVA 2027 dinilai dan FSVA 2028 diramal ulang dengan produksi Januari–April 2027. Di antara dua siklus, ramalan tidak diubah.
+              </p>
+              <p className="mt-2 text-[12px] leading-6 text-[#526F76]">
+                Ramalan FSVA 2028 yang tampil sekarang dibuat tanpa data panen 2027, sehingga hanya menggambarkan tren. Pengujian menunjukkan bahwa tanpa data panen tahun berjalan, perubahan NCPR tidak bisa ditebak lebih baik daripada menganggap NCPR sama seperti tahun lalu.
               </p>
               <p className="mt-2 text-[11px] leading-5 text-[#6D8791]">
                 Referensi: <a href="https://data.badanpangan.go.id/statisticpublications" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#087F8C] underline underline-offset-2 hover:text-[#075E69]">Publikasi FSVA 2026 — Badan Pangan Nasional</a> (pemutakhiran FSVA: tahunan).
