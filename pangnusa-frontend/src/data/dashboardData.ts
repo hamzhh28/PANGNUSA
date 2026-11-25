@@ -67,6 +67,8 @@ export function getDashboardData(data: NCPRData) {
   const officialDeficit = available.filter((k) =>
     k.perubahan_status === 'keluar_defisit' || k.perubahan_status === 'tetap_defisit',
   ).length
+  const deficit2028 = available.filter((k) => (k.ncpr_ramalan_2028 ?? 0) >= 1).length
+  const ada2028 = available.some((k) => typeof k.ncpr_ramalan_2028 === 'number')
   const pct = (n: number) => available.length ? Number((n * 100 / available.length).toFixed(1)) : 0
 
   const ringkasan = {
@@ -77,6 +79,7 @@ export function getDashboardData(data: NCPRData) {
     keluarDefisit: leaving.length,
     persenDefisitResmi: pct(officialDeficit),
     persenDefisitRamalan: pct(predictedDeficit),
+    persenDefisit2028: ada2028 ? pct(deficit2028) : null,
     edisiAwal: data.meta.edisi_awal,
     edisiRamalan: data.meta.edisi_ramalan,
     produksiSampai: data.meta.data_produksi_sampai || '—',

@@ -1,9 +1,9 @@
 *PANGNUSA*
 
-PANGNUSA adalah website sistem peringatan dini ketersediaan pangan di Indonesia berbasis indikator Normative Consumption to Production Ratio (NCPR). Website ini menampilkan data NCPR resmi FSVA 2026 serta hasil prediksi FSVA 2027 menggunakan model FT-Transformer.
+PANGNUSA adalah website sistem forecasting ketersediaan pangan di Indonesia berbasis indikator Normative Consumption to Production Ratio (NCPR). Website ini menampilkan data NCPR resmi FSVA 2026 serta hasil forecast FSVA 2027 dan FSVA 2028 menggunakan model FT-Transformer.
 
 Fitur Utama
-- Dashboard: Ringkasan kondisi dan peringatan dini perubahan status defisit pangan.
+- Dashboard: Ringkasan kondisi, peta, dan kabupaten yang berpotensi berubah status defisit.
 - Jelajahi Kabupaten: Pencarian dan penyaringan data 416 kabupaten.
 - Detail Kabupaten: Informasi NCPR, grafik historis, kelas, dan status prediksi wilayah.
 - Tentang Sistem: Penjelasan metode, evaluasi model, sumber data, dan keterbatasan penelitian.

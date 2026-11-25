@@ -31,6 +31,9 @@ export interface NCPRKabupaten {
   ncpr_ramalan?: number | null
   kelas_awal?: number | null
   kelas_ramalan?: number | null
+  /** Forecast lanjutan FSVA 2028 (kondisi 2027), rekursif dari forecast FSVA 2027. */
+  ncpr_ramalan_2028?: number | null
+  kelas_ramalan_2028?: number | null
   perubahan_status?: PerubahanStatus | null
   cek_data_produksi?: boolean
   skenario?: Record<SkenarioId, HasilSkenario> | null
