@@ -83,7 +83,7 @@ const STATUSES: PerubahanStatus[] = [
   'masuk_defisit', 'keluar_defisit', 'tetap_defisit', 'tetap_surplus',
 ]
 
-function kelasNcpr(n: number): number {
+export function kelasNcpr(n: number): number {
   if (n >= 1.5) return 1
   if (n >= 1.25) return 2
   if (n >= 1) return 3

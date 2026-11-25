@@ -10,6 +10,7 @@ import {
 import { PageHeading, StatusBadge, SurfaceCard } from '../components/DesignUI'
 import { useNcprData, type NCPRKabupaten, type PerubahanStatus } from '../data/useNcprData'
 import { useProfil, type Profil } from '../data/useProfil'
+import { formatKecukupan } from '../data/dashboardData'
 
 const FORMAT = new Intl.NumberFormat('id-ID', {
   minimumFractionDigits: 4,
@@ -25,17 +26,6 @@ const angka = (v: number, d = 0) =>
 
 const valid = (n: number | null | undefined): n is number =>
   typeof n === 'number' && Number.isFinite(n) && n > 0
-
-/** Kecukupan = 100 ÷ NCPR: produksi bersih dibanding kebutuhan konsumsi normatif penduduk. */
-function formatKecukupan(ncpr: number | null | undefined) {
-  if (!valid(ncpr)) return '—'
-  if (ncpr >= 10) return '≤10%'
-  const v = 100 / ncpr
-  if (v > 999) return '>999%'
-  // NCPR ≥ 1 (defisit) tidak boleh tampil sebagai 100% karena pembulatan.
-  const tampil = ncpr >= 1 ? Math.min(v, 99.9) : v
-  return `${angka(tampil, tampil >= 95 && tampil <= 105 ? 1 : 0)}%`
-}
 
 const MERAH = '#D16B73'
 const HIJAU = '#23865C'

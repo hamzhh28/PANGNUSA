@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import { Link } from 'react-router'
 import { PageHeading, StatusBadge, SurfaceCard } from '../components/DesignUI'
+import PetaKabupaten from '../components/PetaKabupaten'
 import {
   formatNcpr, getDashboardData, urutkanMasukDefisit, type KabupatenPeringatan,
 } from '../data/dashboardData'
@@ -171,6 +172,8 @@ export default function DashboardPage() {
         <SummaryCard label="Keluar Defisit" value={String(ringkasan.keluarDefisit)} icon={ArrowUpRight} tone="green" />
         <SummaryCard label="Kabupaten Tidak Diramal" value={String(ringkasan.tidakDiramal)} icon={MapPin} tone="gray" />
       </section>
+
+      <PetaKabupaten kabupaten={data.kabupaten} />
 
       <SurfaceCard className="mb-6 p-5 sm:p-7">
         <div className="flex flex-wrap items-start justify-between gap-3">
