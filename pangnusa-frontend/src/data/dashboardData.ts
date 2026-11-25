@@ -18,6 +18,18 @@ export function formatNcpr(value: number | null): string {
     : new Intl.NumberFormat('id-ID', { minimumFractionDigits: 4, maximumFractionDigits: 4 }).format(value)
 }
 
+/** Kecukupan = 100 ÷ NCPR: produksi bersih dibanding kebutuhan konsumsi normatif penduduk. */
+export function formatKecukupan(ncpr: number | null | undefined): string {
+  if (typeof ncpr !== 'number' || !Number.isFinite(ncpr) || ncpr <= 0) return '—'
+  if (ncpr >= 10) return '≤10%'
+  const v = 100 / ncpr
+  if (v > 999) return '>999%'
+  // NCPR ≥ 1 (defisit) tidak boleh tampil sebagai 100% karena pembulatan.
+  const tampil = ncpr >= 1 ? Math.min(v, 99.9) : v
+  const d = tampil >= 95 && tampil <= 105 ? 1 : 0
+  return `${tampil.toLocaleString('id-ID', { minimumFractionDigits: d, maximumFractionDigits: d })}%`
+}
+
 /** Mengurutkan hanya bila nilai forecast individual seluruhnya tersedia. */
 export function urutkanMasukDefisit(items: KabupatenPeringatan[]): KabupatenPeringatan[] {
   if (items.length && items.every((item) => item.ncprRamalan !== null)) {
