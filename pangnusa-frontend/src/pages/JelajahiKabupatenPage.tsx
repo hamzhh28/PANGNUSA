@@ -119,11 +119,11 @@ function DistrictMobileCard({ item, returnTo }: { item: NCPRKabupaten; returnTo:
       </div>
       <div className="mt-4 grid grid-cols-2 gap-3 rounded-lg bg-[#F8FAFB] px-3 py-3">
         <div>
-          <p className="text-[11px] text-[#81919E]">NCPR resmi 2026</p>
+          <p className="text-[11px] text-[#81919E]">NCPR resmi FSVA 2026</p>
           <p className="mt-1 text-[14px] font-bold tabular-nums text-[#142B3B]">{formatNcpr(item.ncpr_resmi?.['FSVA 2026'])}</p>
         </div>
         <div>
-          <p className="text-[11px] text-[#81919E]">Ramalan 2027</p>
+          <p className="text-[11px] text-[#81919E]">Ramalan FSVA 2027</p>
           <p className="mt-1 text-[14px] font-bold tabular-nums text-[#7464C0]">{formatNcpr(item.diramal ? item.ncpr_ramalan : null)}</p>
         </div>
       </div>
@@ -259,8 +259,8 @@ export default function JelajahiKabupatenPage() {
                   <tr>
                     <th scope="col" className="px-5 py-3">Kabupaten</th>
                     <th scope="col" className="px-4 py-3">Provinsi</th>
-                    <th scope="col" className="px-4 py-3 text-right">NCPR resmi 2026</th>
-                    <th scope="col" className="px-4 py-3 text-right">Ramalan 2027</th>
+                    <th scope="col" className="px-4 py-3 text-right">NCPR resmi FSVA 2026</th>
+                    <th scope="col" className="px-4 py-3 text-right">Ramalan FSVA 2027</th>
                     <th scope="col" className="px-4 py-3">Status</th>
                     <th scope="col" className="px-5 py-3 text-right">Detail</th>
                   </tr>

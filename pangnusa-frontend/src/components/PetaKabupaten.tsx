@@ -157,8 +157,8 @@ export default function PetaKabupaten({ kabupaten }: { kabupaten: NCPRKabupaten[
           </p>
         </div>
         <div className="flex gap-1 rounded-xl border border-[#DCE6E9] bg-white p-1" role="group" aria-label="Tahun yang ditampilkan">
-          {tombol(2025, '2025 · resmi')}
-          {tombol(2026, '2026 · ramalan')}
+          {tombol(2025, 'FSVA 2026 · resmi')}
+          {tombol(2026, 'FSVA 2027 · ramalan')}
         </div>
       </div>
 
@@ -172,7 +172,7 @@ export default function PetaKabupaten({ kabupaten }: { kabupaten: NCPRKabupaten[
             viewBox={`0 0 ${W} ${peta.tinggi.toFixed(0)}`}
             className="block h-auto w-full"
             role="img"
-            aria-label={`Peta kecukupan pangan kabupaten tahun ${tahun}. Daftar lengkap tersedia di halaman Jelajahi Kabupaten.`}
+            aria-label={`Peta kecukupan pangan kabupaten ${tahun === 2026 ? 'ramalan FSVA 2027' : 'FSVA 2026 resmi'}. Daftar lengkap tersedia di halaman Jelajahi Kabupaten.`}
             onMouseMove={gerak}
             onMouseLeave={() => setTip(null)}
             onClick={(e) => { const kode = kodeDi(e); if (kab.has(kode)) navigate(`/kabupaten/${kode}`) }}
@@ -197,9 +197,9 @@ export default function PetaKabupaten({ kabupaten }: { kabupaten: NCPRKabupaten[
               <>
                 <p className="font-bold text-[#142B3B]">{k.nama}</p>
                 <p className="text-[11px] text-[#8495A3]">{k.provinsi}</p>
-                <p className="mt-1">Kecukupan 2025: <strong className="tabular-nums">{formatKecukupan(k.ncpr_resmi?.['FSVA 2026'])}</strong></p>
+                <p className="mt-1">FSVA 2026: <strong className="tabular-nums">{formatKecukupan(k.ncpr_resmi?.['FSVA 2026'])}</strong></p>
                 {k.diramal
-                  ? <p>Ramalan 2026: <strong className="tabular-nums">{formatKecukupan(k.ncpr_ramalan)}</strong></p>
+                  ? <p>Ramalan FSVA 2027: <strong className="tabular-nums">{formatKecukupan(k.ncpr_ramalan)}</strong></p>
                   : <p>Belum bisa diramal: data produksi tidak tersedia.</p>}
                 {k.perubahan_status === 'masuk_defisit' && <p className="font-semibold text-[#B43B43]">Berpotensi masuk defisit</p>}
                 {k.perubahan_status === 'keluar_defisit' && <p className="font-semibold text-[#23865C]">Berpotensi keluar defisit</p>}
