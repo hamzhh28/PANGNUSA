@@ -164,35 +164,6 @@ function JudulKartu({ icon: Icon, children }: { icon: typeof Sprout; children: s
   )
 }
 
-function AlasanRamalan({ p }: { p: Profil }) {
-  const a = p.padi_janapr_2025
-  const b = p.padi_janapr_2026
-  const persen = a != null && a > 0 && b != null ? (b / a - 1) * 100 : null
-  return (
-    <SurfaceCard className="p-5 sm:p-6">
-      <JudulKartu icon={Sprout}>Kenapa ramalannya begini?</JudulKartu>
-      {persen != null ? (
-        <>
-          <p className="mt-4 text-[32px] font-bold tracking-tight tabular-nums" style={{ color: persen < 0 ? '#B43B43' : HIJAU }}>
-            {persen < 0 ? '−' : '+'}{angka(Math.abs(persen))}%
-          </p>
-          <p className="text-[12px] font-bold text-[#617587]">Produksi padi Januari–April 2026 dibanding Januari–April 2025</p>
-          <p className="mt-3 text-[12px] leading-5 text-[#64748B]">
-            Produksi padi tercatat {angka(b!)}&nbsp;ton pada Januari–April 2026, dibanding {angka(a!)}&nbsp;ton pada periode
-            yang sama tahun 2025. Perubahan produksi awal tahun ini adalah salah satu masukan terpenting model, selain NCPR
-            tahun lalu dan kondisi wilayah lainnya.
-          </p>
-        </>
-      ) : (
-        <p className="mt-4 text-[12px] leading-5 text-[#64748B]">
-          Produksi padi Januari–April belum tercatat untuk kabupaten ini, sehingga ramalan menganggap produksinya tidak
-          berubah dari tahun lalu.
-        </p>
-      )}
-    </SurfaceCard>
-  )
-}
-
 function KondisiPenduduk({ p }: { p: Profil }) {
   return (
     <SurfaceCard className="p-5 sm:p-6">
@@ -518,7 +489,6 @@ export default function DetailKabupatenPage() {
 
       {profil && (
         <div className="mb-5 grid gap-5 md:grid-cols-2">
-          {kabupaten.diramal && <AlasanRamalan p={profil} />}
           <KondisiPenduduk p={profil} />
           <Tetangga k={kabupaten} p={profil} semua={data.kabupaten} kembali={kembaliKeJelajahi} />
           <HargaBeras k={kabupaten} p={profil} />
